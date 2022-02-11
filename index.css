@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
