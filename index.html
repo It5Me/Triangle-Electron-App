@@ -22,7 +22,10 @@
                 <div
                     class="d-flex flex-column justify-content-center align-items-center"
                 >
-                    <h1>Enter the length of sides</h1>
+                    <h1>
+                        <u style="text-decoration-color: #afeaea">Enter</u> the
+                        length of sides
+                    </h1>
                     <form>
                         <div class="form-group d-flex flex-column">
                             <div
@@ -39,10 +42,10 @@
                                     Side 1
                                 </h5>
                                 <input
-                                    class="border-top-0 border-left-0 border-right-0 border-dark bg-transparent form-control shadow-none"
+                                    class="border-top-0 border-left-0 border-right-0 border-grey bg-transparent form-control shadow-none"
                                     type="number"
                                     class="form-control"
-                                    id="exampleFormControlInput1"
+                                    id="side1"
                                     placeholder="0 - 20000"
                                 />
                             </div>
@@ -57,10 +60,10 @@
                                     Side 2
                                 </h5>
                                 <input
-                                    class="border-top-0 border-left-0 border-right-0 border-dark bg-transparent form-control shadow-none"
+                                    class="border-top-0 border-left-0 border-right-0 border-grey bg-transparent form-control shadow-none"
                                     type="number"
                                     class="form-control"
-                                    id="exampleFormControlInput1"
+                                    id="side2"
                                     placeholder="0 - 20000"
                                 />
                             </div>
@@ -75,10 +78,10 @@
                                     Side 3
                                 </h5>
                                 <input
-                                    class="border-top-0 border-left-0 border-right-0 border-dark bg-transparent form-control shadow-none"
+                                    class="border-top-0 border-left-0 border-right-0 border-grey bg-transparent form-control shadow-none"
                                     type="number"
                                     class="form-control"
-                                    id="exampleFormControlInput1"
+                                    id="side3"
                                     placeholder="0 - 20000"
                                 />
                             </div>
@@ -96,7 +99,7 @@
                             for="exampleFormControlInput1"
                             style="
                                 white-space: nowrap;
-                                padding-right: 10px;
+                                padding-right: 20px;
                                 padding-top: 5px;
                             "
                         >
@@ -105,7 +108,8 @@
                         <input
                             class="form-control bg-transparent border-info"
                             type="text"
-                            value=""
+                            id="result"
+                            value="type of triangle"
                             aria-label="Disabled input example"
                             disabled
                             readonly
